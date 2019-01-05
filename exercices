@@ -1,0 +1,32 @@
+SHELL
+
+
+Exercice 1
+
+sudo chmod 750 Documents
+mkdir Documents/shell
+mkdir jaime_le_shell
+cd jaime_le_shell
+touch test1 test2 test3 test4 test5 test6
+
+ls -l (pour vérifier l’état détaillé de cette directory)
+
+
+Exercice 2
+
+mkdir/jaime_le_shell/le_shell_cest_trop_cool
+touch test1 test2 test3 test4 test5 test6
+
+l
+
+
+Exercice 3
+
+sudo chmod 644 test1
+sudo chmod 644 test5
+mv test1 le_shell_cest_trop_cool
+mv test5 le_shell_cest_trop_cool
+cp test2 le_shell_cest_trop_cool
+cp test6 le_shell_cest_trop_cool
+
+ls -l (pour vérifier l’état détaillé de cette directory)
